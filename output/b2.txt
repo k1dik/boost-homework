@@ -1,0 +1,109 @@
+ch1psik@DESKTOP-ID4SA7P:~/boost_1_69_0$ ./b2
+Performing configuration checks
+
+    - default address-model    : 64-bit (cached)
+    - default architecture     : x86 (cached)
+
+Building the Boost C++ Libraries.
+
+
+    - C++11 mutex              : yes (cached)
+    - lockfree boost::atomic_flag : yes (cached)
+    - Boost.Config Feature Check: cxx11_auto_declarations : yes (cached)
+    - Boost.Config Feature Check: cxx11_constexpr : yes (cached)
+    - Boost.Config Feature Check: cxx11_defaulted_functions : yes (cached)
+    - Boost.Config Feature Check: cxx11_final : yes (cached)
+    - Boost.Config Feature Check: cxx11_hdr_mutex : yes (cached)
+    - Boost.Config Feature Check: cxx11_hdr_tuple : yes (cached)
+    - Boost.Config Feature Check: cxx11_lambdas : yes (cached)
+    - Boost.Config Feature Check: cxx11_noexcept : yes (cached)
+    - Boost.Config Feature Check: cxx11_nullptr : yes (cached)
+    - Boost.Config Feature Check: cxx11_rvalue_references : yes (cached)
+    - Boost.Config Feature Check: cxx11_template_aliases : yes (cached)
+    - Boost.Config Feature Check: cxx11_thread_local : yes (cached)
+    - Boost.Config Feature Check: cxx11_variadic_templates : yes (cached)
+    - has_icu builds           : no  (cached)
+warning: Graph library does not contain MPI-based parallel components.
+note: to enable them, add "using mpi ;" to your user-config.jam
+    - zlib                     : no  (cached)
+    - bzip2                    : no  (cached)
+    - lzma                     : no  (cached)
+    - zstd                     : no  (cached)
+    - iconv (libc)             : yes (cached)
+    - icu                      : no  (cached)
+    - icu (lib64)              : no  (cached)
+    - native-atomic-int32-supported : yes (cached)
+    - native-syslog-supported  : yes (cached)
+    - pthread-supports-robust-mutexes : yes (cached)
+    - compiler-supports-ssse3  : yes (cached)
+    - compiler-supports-avx2   : yes (cached)
+    - gcc visibility           : yes (cached)
+    - long double support      : yes (cached)
+warning: skipping optional Message Passing Interface (MPI) library.
+note: to enable MPI support, add "using mpi ;" to user-config.jam.
+note: to suppress this message, pass "--without-mpi" to bjam.
+note: otherwise, you can safely ignore this message.
+warning: No python installation configured and autoconfiguration
+note: failed.  See http://www.boost.org/libs/python/doc/building.html
+note: for configuration instructions or pass --without-python to
+note: suppress this message and silently skip all Boost.Python targets
+    - libbacktrace builds      : yes (cached)
+    - addr2line builds         : yes (cached)
+    - WinDbg builds            : no  (cached)
+    - WinDbgCached builds      : no  (cached)
+    - BOOST_COMP_GNUC >= 4.3.0 : no  (cached)
+    - zlib                     : no  (cached)
+    - bzip2                    : no  (cached)
+    - lzma                     : no  (cached)
+    - zstd                     : no  (cached)
+
+Component configuration:
+
+    - atomic                   : building
+    - chrono                   : building
+    - container                : building
+    - context                  : building
+    - contract                 : building
+    - coroutine                : building
+    - date_time                : building
+    - exception                : building
+    - fiber                    : building
+    - filesystem               : building
+    - graph                    : building
+    - graph_parallel           : building
+    - iostreams                : building
+    - locale                   : building
+    - log                      : building
+    - math                     : building
+    - mpi                      : building
+    - program_options          : building
+    - python                   : building
+    - random                   : building
+    - regex                    : building
+    - serialization            : building
+    - stacktrace               : building
+    - system                   : building
+    - test                     : building
+    - thread                   : building
+    - timer                    : building
+    - type_erasure             : building
+    - wave                     : building
+
+...patience...
+...patience...
+...patience...
+...patience...
+...patience...
+...patience...
+...found 12316 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    /home/ch1psik/boost_1_69_0
+
+The following directory should be added to linker library paths:
+
+    /home/ch1psik/boost_1_69_0/stage/lib

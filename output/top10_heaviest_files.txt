@@ -1,0 +1,10 @@
+total 40M
+-rw-r--r-- 1 ch1psik ch1psik 4.7M Mar  1 14:47 libboost_wave.a
+-rw-r--r-- 1 ch1psik ch1psik 4.5M Mar  1 14:50 libboost_log.a
+-rw-r--r-- 1 ch1psik ch1psik 3.1M Mar  1 14:51 libboost_math_tr1.a
+-rw-r--r-- 1 ch1psik ch1psik 3.1M Mar  1 14:52 libboost_math_tr1l.a
+-rw-r--r-- 1 ch1psik ch1psik 3.1M Mar  1 14:51 libboost_math_tr1f.a
+-rw-r--r-- 1 ch1psik ch1psik 2.8M Mar  1 14:48 libboost_regex.a
+-rw-r--r-- 1 ch1psik ch1psik 2.7M Mar  1 14:51 libboost_log_setup.a
+-rw-r--r-- 1 ch1psik ch1psik 2.4M Mar  1 15:00 libboost_test_exec_monitor.a
+-rw-r--r-- 1 ch1psik ch1psik 2.4M Mar  1 14:53 libboost_unit_test_framework.a
